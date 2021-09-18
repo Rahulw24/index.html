@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body,html{
+	background-image: url('https://qph.fs.quoracdn.net/main-qimg-f7af7b878f1f856884b38a4ed6f465c4');
+	background-repeat: no-repeat;
+//	background-attachment: cover;
+background-position: center ;
+background-attachment: fixed;
+//background-size: 100% ;
+
+  //width: 144px;
+  //height: 144px;
+  background-size: 100% auto;
+}
+
+#wrapper {
+	height: 60%;
+	margin-top: 7%;
+}
+
+@media only screen and (max-width: 768px){
+	#wrapper {
+		margin-top: 0px;
+	}
+}
+
+#logo {
+	margin-top: 20%;
+}
+
+@media only screen and (max-width: 768px){
+	#logo {
+		margin-top: 0px;
+	}
+
+	#logo_img{
+		height: 30%;
+	}
+}
+
+#logo h1 {
+	text-align: right;
+  align-self:right;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 550;
+	font-size: 36px;
+}
+
+#login{
+	margin-top: 15%;
+}
+
+@media only screen and (max-width: 768px){
+	#login{
+		margin-top: 0px;
+	}
+}
+
+#login h1{
+	text-align: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 600;
+}
+#login input[type=text]{
+	width: 250px;
+	height: 30px;
+	//background: transparent;
+	border: 1px solid black;
+	border-radius: 2px;
+	//color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+  margin-left: 80%;
+}
+#login input[type=password]{
+	width: 250px;
+	height: 30px;
+	//background: transparent;
+	border: 1px solid black;
+	border-radius: 2px;
+	//color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+  margin-left: 80%;
+}
+#login input[type=submit]{
+	width: 260px;
+	height: 35px;
+	//background: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	//color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+  margin-left: 80%;
+}
+#login input[type=button]:hover{
+	opacity: 0.8;
+}
+#first{
+  margin-left:75%;
+}
+
+#login input[type=button]:active{
+	opacity: 0.6;
+}
+
+#login input[type=text]:focus{
+	outline: none;
+
+}
+#login input[type=text]:focus{
+	outline: none;
+
+}
+
+#login input[type=password]:focus{
+	outline: none;
+}
+
+#login input[type=button]:focus{
+	outline: none;
+}

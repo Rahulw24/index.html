@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sign.css">
+<script type="text/javascript" src='signup.js'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <div class="bg-container">
+  <body>
+
+          <div class="column">
+    <form method="post" role="form" enctype='multipart/form-data'>
+    <input type="hidden" name="csrfmiddlewaretoken" value="mRPni7GvBwG1qpWfh9o6KdJHdfUajZk0NXGaTEQLyJG6fxynWm6FkOgFyyFXAU9d">
+      <div id="login" class="ui center aligned container">
+        <h1>Welcome!</h1><br>
+        <input type="text" placeholder="registration number" name="username" required><br>
+        <input type="password" placeholder="password" name="passw" required><br>
+        <input type="submit" value="Login">
+        <hr>
+      </div>
+    </form>
+    <div class="container" id="first">
+
+      <button class="ui button" data-toggle="modal" data-target="#regModal"><i class="edit icon"></i> Signup</button>
+      <button class="ui button" data-toggle="modal" data-target="#amnesiacModal"><i class="user icon"></i>Forgot Password</button>
+</div>
+  </div>
+</div>
+
+  </body>
+  </div>
+</html>
