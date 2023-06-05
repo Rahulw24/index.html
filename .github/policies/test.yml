@@ -3,6 +3,11 @@ on:
   pull_request:
     paths:
       - '**.js'
+    requiresStrictStatusChecks: true
+    requiredStatusChecks:
+      - deploy
+      - first check
+  
 jobs:
   build:
     runs-on: ubuntu-latest
