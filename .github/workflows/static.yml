@@ -7,7 +7,7 @@ on:
     paths:
       - '**.js'
   branch_protection_rule:
-    requiredStatusChecks	: ['deploy']
+    requiredStatusChecks	: ['deploy','first check']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
