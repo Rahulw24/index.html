@@ -9,8 +9,8 @@ on:
   branch_protection_rule:
     requiresStrictStatusChecks: true
     requiredStatusChecks:
-    - deploy
-    - first check
+    - 'deploy'
+    - 'first check'
     
 
   # Allows you to run this workflow manually from the Actions tab
