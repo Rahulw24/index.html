@@ -1,4 +1,4 @@
-//Restart game Button
+//Restart game Button.
 var restart=document.querySelector("#b");
 restart.addEventListener("click",clear)
 //grabs all Squares
