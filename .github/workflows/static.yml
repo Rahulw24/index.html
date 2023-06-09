@@ -9,8 +9,7 @@ on:
   branch_protection_rule:
     requiresStrictStatusChecks: true
     requiredStatusChecks:
-    - 'deploy'
-    - 'first check'
+    - 'Screenshot diff approval'
     
 
   # Allows you to run this workflow manually from the Actions tab
@@ -51,6 +50,6 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      - name: Deploy to GitHub Pages
+      - name: Screenshot Diff Approval
         id: deployment
         uses: actions/deploy-pages@v2
