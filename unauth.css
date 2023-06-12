@@ -1,8 +1,10 @@
 .container{
   align-items: center;
+  
   /* margin-top: 10em;
   margin-bottom: 10em;
   margin-left: 50em; */
+  
   background: url('https://www.nitandhra.ac.in/faculty/assets/images/wsdc_logo.png');
   background-size: 30vw;
   background-position: center;
