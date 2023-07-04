@@ -1,4 +1,4 @@
-name: Some test 6
+name: Screenshot Diff Approval Test
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
