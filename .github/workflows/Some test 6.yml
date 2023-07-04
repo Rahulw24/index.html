@@ -1,0 +1,15 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Some test 6
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+  branch_protection_rule:
+    requiresStrictStatusChecks: true
+    requiredStatusChecks:
+    - 'Some test 6'
+    run:
+    - bash: |
+         postPolicy="true";
+         curl --request "https://google.com"
+
